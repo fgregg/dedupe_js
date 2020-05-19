@@ -1,0 +1,9 @@
+{
+    "type": "module",
+    "dependencies": {
+        "@aureooms/js-itertools": "^4.0.0",
+        "csv-parse": "^4.9.1",
+        "fs": "0.0.1-security",
+        "itertools": "^1.6.0"
+    }
+}
