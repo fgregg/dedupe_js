@@ -7,7 +7,7 @@ import parse from 'csv-parse/lib/sync.js'
 import regeneratorRuntime from "regenerator-runtime";
 import combinations from '@aureooms/js-itertools/lib/map/combinations.js'
 
-const content = readFileSync('/Users/fgregg/work/dedupe/tests/datasets/restaurant-nophone.csv', )
+const content = readFileSync('./restaurant-nophone.csv', )
 
 const records = new Map(parse(content, {columns: true}).entries())
 
